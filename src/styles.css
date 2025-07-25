@@ -1,6 +1,30 @@
 body {
-  position: absolute;
-  margin: 0;
-  background: #001f4d;
-  height: 100vh;
+  background-color: #59c5e6;
+}
+
+.color-one {
+  background-color: #ff0000; /* Red */
+}
+.color-two {
+  background-color: #00ff00; /* Green */
+}
+.color-three {
+  background-color: #0000ff; /* Blue */
+}
+
+#heading {
+  text-align: center;
+  color: #cce64e;
+  font-family: "Arial", sans-serif;
+}
+
+#textInput {
+  width: 80%;
+  height: 150px;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
